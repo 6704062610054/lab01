@@ -5,10 +5,10 @@ int main(){
 	if (a>b){
 		printf("a is more than b");
 	}
-	if (b>a){
+	else if (b>a){
 		printf("b is more than a");
 	}
-	if (a==b){
+	else if (a==b){
 		printf("a eqauls b");
 	}
 }
